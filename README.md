@@ -13,8 +13,8 @@ Server (UCS) domains. It will perform the following steps for you:
 Univention Domain Join supports the following Linux distributions:
 
 - Ubuntu 18.04 LTS („Bionic Beaver“)
-- Ubuntu 17.10 („Artful“)
-- Ubunut 16.04 LTS („Xenial“)
+- Ubuntu 17.10 („Artful Aardvark“)
+- Ubunut 16.04 LTS („Xenial Xerus“)
 
 # Download and Installation
 
@@ -31,7 +31,8 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install univention-domain-join
 Run the assistant using the start menu. 
 
 There is also a command line tool, which you can run with
-`univention-domain-join-cli`.
+`univention-domain-join-cli`. The command line tool
+can be installed separately with the package `univention-domain-join-cli`
 
 # License
 
